@@ -5,16 +5,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>YOUR NAME HERE</title>
+	<title>Art of communication</title>
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+	<link rel="stylesheet" href="dist/theme/white.css" id="theme">
 
-	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="plugin/highlight/github-gist.css">
+	<link href="font/font.css" rel="stylesheet">
 
-	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="dist/custom.css">
 	<link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
 
 </head>
@@ -24,6 +25,91 @@
 		<div class="slides">
 			<section data-background="#FFFFFF"><img class="fragment" data-duration="2" data-animate="fadeIn"
 					src="img/ministry.png"></section>
+			<section>
+				<section data-background="img/about/1.png" data-background-transition="none"></section>
+				<section data-background="img/about/2.png" data-background-transition="none"></section>
+				<section data-background="img/about/3.png" data-background-transition="none"></section>
+				<section data-background="img/about/4.png" data-background-transition="none"></section>
+				<section data-background="img/about/5.png" data-background-transition="none"></section>
+				<section data-background="img/about/6.png" data-background-transition="none"></section>
+				<section data-background="img/about/7.png" data-background-transition="none"></section>
+			</section>
+			<section></section>
+			<section>
+				<section data-auto-animate data-background="img/sketch-bg.png">
+					<h3>Зачем нужны менеджеры?</h3>
+				</section>
+				<section data-auto-animate data-background="img/sketch-bg.png">
+					<h3>Зачем нужны менеджеры?</h3>
+					<ul>
+						<li class="fragment">принимать решения</li>
+						<li class="fragment">коммуницировать</li>
+					</ul>
+				</section>
+				<section data-background="img/story-bg.png">
+					<h3>Время историй</h3>
+				</section>
+				<section data-background="img/messages/1.png"></section>
+				<section data-background="img/messages/2.png"></section>
+				<section data-background="img/messages/3.png"></section>
+				<section><img src="img/toxic-1.png"></section>
+				<section><img src="img/toxic-2.png"></section>
+				<section data-background="img/routers.png"></section>
+			</section>
+			<section data-background="img/man-bg.png"></section>
+			<section data-background="img/man-bg-bright.png">
+				<h2>Про коммуникации</h2>
+			</section>
+			<section>
+				<section data-background="img/chapters/1.png">
+					<h3><span class="accent">I</span>. Проблема</h3>
+				</section>
+			</section>
+			<section>
+				<section data-background="img/chapters/2.png">
+					<h3><span class="accent">II</span>. Чиним систему</h3>
+				</section>
+				<section data-auto-animate data-background="img/sketch-bg.png">
+					<h3>Время</h3>
+				</section>
+				<section data-background="img/calendar-color.png"></section>
+				<section data-background="img/bags.png"></section>
+				<section data-auto-animate data-background="img/sketch-bg.png">
+					<h3>Почему сложно всё успеть?</h3>
+					<ul>
+						<li class="fragment">не трекаем время</li>
+						<li class="fragment">ad-hoc коммуникации</li>
+					</ul>
+				</section>
+				<section data-auto-animate >
+					<div class="advice">
+						<div>
+							<h3>Трекать всё</h3>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate >
+					<div class="advice">
+						<div>
+							<h3>Трекать всё</h3>
+							<h4 class="accent">Вообще всё</h4>
+						</div>
+					</div>
+				</section>
+				<section data-auto-animate data-background="img/sketch-bg.png">
+					<h3>Время</h3>
+				</section>
+				<section data-auto-animate data-background="img/sketch-bg.png">
+					<h3 style="font-size: 0.7em;"><s>Время</s></h3>
+					<h3 class="accent">Приоритеты</h3>
+				</section>
+			</section>
+			<section>
+				<section data-background="img/chapters/4.png">
+					<h3><span class="accent">IV</span>. Бе бе бе</h3>
+				</section>
+				<section data-background-video="media/once-upon.mp4"></section>
+			</section>
 		</div>
 	</div>
 
@@ -37,7 +123,8 @@
 		// - https://revealjs.com/config/
 		Reveal.initialize({
 			hash: true,
-
+			controls: false,
+			progress: false,
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
 			dependencies: [
