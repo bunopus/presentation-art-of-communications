@@ -123,6 +123,19 @@
     opacity: 1;
     background-color: rgba(184, 37, 37, 0.09);
     color: rgba(184, 37, 37, 0); }
+  .reveal section .instructions {
+    font-family: roboto_mono, monospace;
+    font-size: 20px; }
+    .reveal section .instructions a {
+      color: #210008; }
+      .reveal section .instructions a:hover {
+        text-decoration: underline; }
+    .reveal section .instructions .hint {
+      background-color: #ffcc68;
+      margin-right: 10px;
+      padding: 0 10px 0 10px; }
+    .reveal section .instructions li:before {
+      content: ""; }
   .reveal section .missing-glyps {
     font-family: "Comic Sans MS", cursive, sans-serif; }
   .reveal section span.flicker {
