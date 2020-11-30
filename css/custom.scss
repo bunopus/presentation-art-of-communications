@@ -60,6 +60,15 @@ $red: #b82525;
         font-size: 1.8em;
         font-family: "Open Sans", serif;
       }
+      &.plan {
+        li:before {
+          content: "";
+          left: 0px;
+        }
+        &.plan.small {
+         h4 {font-size: 0.7em;}
+        }
+      }
 
       &.conclusion {
         font-weight: 100;
@@ -104,7 +113,7 @@ $red: #b82525;
       color: $near-black;
       box-shadow: none;
       font-family: Caveat, serif;
-      font-size: 60px;
+      font-size: 20px;
       font-style: normal;
       font-weight: lighter;
       text-align: left;
@@ -206,6 +215,12 @@ $red: #b82525;
         }
         
     }
+
+    div.container {
+      display: flex;
+      justify-content: center;
+    }
+
     #info {
         .container {
           padding-bottom: 30px;

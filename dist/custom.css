@@ -38,6 +38,11 @@
       left: -20px;
       font-size: 1.8em;
       font-family: "Open Sans", serif; }
+    .reveal section ul.plan li:before {
+      content: "";
+      left: 0px; }
+    .reveal section ul.plan.plan.small h4 {
+      font-size: 0.7em; }
     .reveal section ul.conclusion {
       font-weight: 100;
       font-size: 0.7em;
@@ -69,7 +74,7 @@
     color: #210008;
     box-shadow: none;
     font-family: Caveat, serif;
-    font-size: 60px;
+    font-size: 20px;
     font-style: normal;
     font-weight: lighter;
     text-align: left; }
@@ -134,6 +139,9 @@
     justify-content: center; }
     .reveal section div.advice > * {
       margin: 0; }
+  .reveal section div.container {
+    display: flex;
+    justify-content: center; }
   .reveal section #info .container {
     padding-bottom: 30px; }
     .reveal section #info .container img {
