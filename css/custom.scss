@@ -241,19 +241,22 @@ $red: #b82525;
     }
 
     #info {
-        .container {
-          padding-bottom: 30px;
-          
           img {
             width: 90px;
-            float: left;
             padding-right: 20px;
+            display: inline-block;
           }
           h4 {
-            display: inline;
-            font-size: 0.9em;
+            display: inline-block;
+            font-size: 1em;
+            a {
+              color: $near-black;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
           }
-        }
+        
 
     }
     .instructions {

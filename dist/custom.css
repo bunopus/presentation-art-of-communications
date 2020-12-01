@@ -155,15 +155,17 @@
   .reveal section div.container {
     display: flex;
     justify-content: center; }
-  .reveal section #info .container {
-    padding-bottom: 30px; }
-    .reveal section #info .container img {
-      width: 90px;
-      float: left;
-      padding-right: 20px; }
-    .reveal section #info .container h4 {
-      display: inline;
-      font-size: 0.9em; }
+  .reveal section #info img {
+    width: 90px;
+    padding-right: 20px;
+    display: inline-block; }
+  .reveal section #info h4 {
+    display: inline-block;
+    font-size: 1em; }
+    .reveal section #info h4 a {
+      color: #210008; }
+      .reveal section #info h4 a:hover {
+        text-decoration: underline; }
   .reveal section .instructions {
     font-family: roboto_mono, monospace;
     font-size: 20px; }
